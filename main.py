@@ -112,7 +112,7 @@ def start(message):
     user_id = message.from_user.id
     log_command(user_id, '/start')
     if user_id not in AUTHORIZED_USERS:
-        bot.send_message(message.chat.id, "🚫 Access Denied! Contact the owner for assistance: @venomXcrazy")
+        bot.send_message(message.chat.id, "🚫 Access Denied! Contact the owner for assistance: @arhumusman66")
     else:
         welcome_message = (
             "🎮 **Welcome to the Ultimate Attack Bot!** 🚀\n\n"
@@ -129,7 +129,7 @@ def start(message):
             "9. Be aware of the consequences of your actions! ⚖️\n"
             "10. Stay within the limits and play fair! 🤗\n"
             "💡 Follow the rules and let's enjoy gaming together! 🎉\n"
-            "📞 Contact the owner on Instagram and Telegram: @venomXcrazy\n"
+            "📞 Contact the owner on Instagram and Telegram: @arhumusman66\n"
             "☠️ To see the Telegram Bot Command type: /help"
             "👤 To find your user ID type: /id"
         )
